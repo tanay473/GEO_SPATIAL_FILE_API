@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Survey</name>
+    <Folder>
+      <name>Plots</name>
+      <Placemark id="plot-17">
+        <name>Plot 17</name>
+        <ExtendedData><Data name="owner"><value>R. Kumar</value></Data></ExtendedData>
+        <Polygon><outerBoundaryIs><LinearRing>
+          <coordinates>77.5900,12.9700 77.5920,12.9700 77.5920,12.9715 77.5900,12.9715 77.5900,12.9700</coordinates>
+        </LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Roads</name>
+      <Placemark id="road-3">
+        <name>Access road</name>
+        <LineString><coordinates>77.5900,12.9700 77.5950,12.9730 77.6000,12.9735</coordinates></LineString>
+      </Placemark>
+    </Folder>
+    <Placemark id="well-1">
+      <name>Borewell</name>
+      <Point><coordinates>77.5910,12.9705,920</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
